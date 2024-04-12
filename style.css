@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+.register-conteiner {
+    width: 415px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 145px;
+    box-shadow: 0px 6px 50px #bfd6f6;
+    padding: 30px 30px;
+}
+.form-tittle {
+    color: rgb(13, 13, 76);
+    font-weight: 500;
+    font-size: 20px;
+    line-height:23px ;
+    margin-bottom: 30px;
+}
+input{
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #898989;
+    padding-left: 25px;
+    color: rgb(22, 7, 68);
+}
+.form-fields {
+}
+.form-field {
+    margin-bottom: 13px;
+}
+.form-button {
+
+}
+.button-reg,
+.button-google {
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    height: 35px;
+    background-color: rgb(83, 83, 238);
+    border-radius: 5px;
+    color: #e9f2ff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    transition: background-color linear 0.5s ;
+}
+.button-reg:hover{
+    background-color: blue;
+}
+
+.divider {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    padding: 25px 0;
+}
+.button-google {
+    background-color: #898989;
+}
+.button-google:hover{
+    background-color: #5b5656;
+}
